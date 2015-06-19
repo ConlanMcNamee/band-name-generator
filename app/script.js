@@ -35,7 +35,7 @@ $(function() {
 			verbPost = {word: verb};
 			$.post("verb", verbPost, function(response) {
 				var verbRes = response.msg;
-				$("#verbRes").text(verRes);
+				$("#verbRes").text(verbRes);
 			});
 		}
 		if(noun) {
