@@ -1,0 +1,27 @@
+h2 , h3{
+	color: white;
+	text-align: center;
+
+}
+
+body {
+	background-image: url('ron-photo.jpg');
+	background-size: 100% 100%;
+	font-family: sans-serif;
+}
+
+form {
+	color: white;
+}
+p {
+	color: white;
+	text-align: center;
+}
+button {
+	background-color: red;
+	margin: 0;
+	border-color: blue;
+}
+#name, #review {
+	position: absolute;
+}

@@ -1,8 +1,12 @@
 <html>
-  <body>
-    <h2>
-      Welcome to the Band Name Generator
-    </h2>
+	<head>
+		<title>Conlan's Band Name Generator</title>
+		<link rel="stylesheet" href="stylesheet.css"/>
+	</head>
+    <body>
+    	<h2>
+     	   Welcome to the Band Name Generator
+    	</h2>
 
 	<button id="name">Get a random band name!</button>
 	<p>
@@ -21,11 +25,17 @@
 		<label for="user-noun">Give us a noun:</lable>
 		<input type="text" name="noun" id="user-noun">
 		<input type="submit" value="Submit Words">
-	</from>
+	</form>
 
 	<p id="adjectiveRes"></p>
 	<p id="verbRes"></p>
 	<p id="nounRes"></p>
+
+	<h3>Get a Review of this site!</h3>
+	<button id="review">Get a random review</button>
+	<p>
+		<span id="reviewPlace"></span>
+	</p>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="/script.js"></script>

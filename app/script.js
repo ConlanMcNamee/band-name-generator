@@ -15,6 +15,12 @@ $(function() {
 			$('#noun').text(noun);
 		});
 	});
+	$("#review").on('click', function() {
+		$.get("review", function(response) {
+			var review = response.word;
+			$('#reviewPlace').text(review);
+		});
+	});
 	$('#submitWords').on('submit', function(e) {
 		e.preventDefault();
 		var adjective = $("[name=adjective]").val();
